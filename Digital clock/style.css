@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: url(https://images.unsplash.com/photo-1512386233331-f023884a92e8?q=80&w=1495&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+    font-size: 30px;
+}
+
+.clock div {
+    margin: 10px;
+    position: relative;
+}
+
+.clock span {
+    width: 150px;
+    height: 100px;
+    background: rgb(137, 180, 175, 0.4);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#text {
+    font-size: 25px;
+    text-transform: uppercase;
+    height: 35px;
+    letter-spacing: 2px;
+    background-color: rgb(137, 180, 175);
+    
+}
+
+#time {
+    position: absolute;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    margin: 101px 0px;
+}
